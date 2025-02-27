@@ -22,3 +22,10 @@ import org.testng.annotations.Test
     >  *
     >  * @return the value (default 0)
     > */ 
+- enabled = true/false
+  - default: true
+   >   /**
+   > * Whether methods on this class/method are enabled.
+   > *
+   > * @return the value (default true)
+   > */ 
