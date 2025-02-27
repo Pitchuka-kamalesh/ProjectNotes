@@ -42,3 +42,12 @@ import org.testng.annotations.Test
     > The list of methods this method depends on. There is no guarantee on the order on which the methods depended upon will be run, but you are guaranteed that all these methods will be run before the test method that contains this annotation is run. Furthermore, if any of these methods was not a SUCCESS, this test method will not be run and will be flagged as a SKIP.
     >
     > If some of these methods have been overloaded, all the overloaded versions will be run.
+- dependsOnMethods = {"methodNames"}
+  - default: {}
+    > The list of methods this method depends on. There is no guarantee on the order on which the
+    > methods depended upon will be run, but you are guaranteed that all these methods will be run
+    >  before the test method that contains this annotation is run. Furthermore, if any of these
+    > methods was not a SUCCESS, this test method will not be run and will be flagged as a SKIP.
+  
+    > <p>If some of these methods have been overloaded, all the overloaded versions will be run.
+    > @return the value
