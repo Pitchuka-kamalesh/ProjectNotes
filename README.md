@@ -30,7 +30,8 @@ import org.testng.annotations.Test
    > * @return the value (default true)
    > */ 
 - groups = { "functest", "checkintest" }
+  - default: {}
   > The list of groups this class/method belongs to.
   > Returns:
   > the value
-  > Default: {}
+
